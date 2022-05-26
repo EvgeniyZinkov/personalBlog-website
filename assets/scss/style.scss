@@ -9,6 +9,7 @@ body {
     background-color: black;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1.4rem;
+    line-height: 1.5;
     color: white;
 }
 
@@ -25,3 +26,6 @@ body {
 @import "blocks/sidebar.scss";
 @import "blocks/main.scss"; 
 @import "blocks/container.scss";
+@import "blocks/profile.scss";
+@import "blocks/social.scss";
+@import "blocks/btn.scss";
