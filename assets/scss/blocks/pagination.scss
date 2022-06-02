@@ -13,7 +13,7 @@
     width: 4rem;
     height: 4rem;
 
-    background-color: $primary;
+    background-color: #0D0D0D;
     border-radius: 3px;
     box-shadow: 0 0 10px rgba($black, .15);
 
@@ -26,12 +26,11 @@
     transition: background-color .2s linear;
 
     &:hover {
-        background-color: lighten($primary, 2%);
+        background-color: lighten(#0D0D0D, 2%);
     }
 
     &.active {
         background-color: $blue;
         box-shadow: 0 0 10px rgba($blue, .15);
     }
-
 }
